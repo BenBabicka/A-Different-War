@@ -1,0 +1,12 @@
+23000 - rifle
+23001 - revolver
+23002 - manchine gun
+23003 - shotgun
+23004 - knife
+23005 - spear
+23006 - axe
+23007 - pistol
+23008 - bow
+23009 - basic blaster
+23010 - basic heavy blaster
+23011 - assault Rifle

@@ -1,0 +1,2143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2985e35a028e49d4b853476417c4d6a0, type: 3}
+  m_Name: MaterialPropertiesResolver
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ca4ae24a6e91cca4cae68acbeb486978, type: 2}
+  - {fileID: 2100000, guid: 95ecd854862c47b44aab9628dea646db, type: 2}
+  - {fileID: 2100000, guid: 8b909a2f0b703364b93a0bb1984ecf04, type: 2}
+  - {fileID: 2100000, guid: 364b1d7810a978141a52fd79ecc02022, type: 2}
+  - {fileID: 2100000, guid: fdcff23237c48834da81587a3aafbffd, type: 3}
+  - {fileID: 2100000, guid: 59951e98b0c63de4196ee6ee89e323c4, type: 2}
+  - {fileID: 2100000, guid: 0eba8a9160e330e4bb32540ce2bd8f9a, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: acfa2c50c774a7640b04ac51e298443b, type: 3}
+  - {fileID: 2100000, guid: cd7e5eec6478cec4a93b9c46918cea6c, type: 2}
+  - {fileID: 2100000, guid: 75ae2e3fcc72b23458f4a7f9dd34deb6, type: 2}
+  - {fileID: 2100000, guid: ae9352c0966253e4a8676ff75889f560, type: 3}
+  - {fileID: 2100000, guid: 3407a78b0561f784cab830652ad79f04, type: 3}
+  - {fileID: 2100000, guid: 3d410313c237f4942b37cb75bb85959d, type: 3}
+  - {fileID: 2100000, guid: d600e0d3c9589f444b70d91e718b5eba, type: 2}
+  - {fileID: 2100000, guid: 27acff1d5875e794d831151e2141a541, type: 2}
+  - {fileID: 2100000, guid: d93c1bc57fdf1ac4dad1bf04fac05464, type: 3}
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 02732bda4c4d1a542b3a4503d169d89f, type: 2}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c839255fc8f6b4b4d90bf8c1af9f9bd1, type: 3}
+  - {fileID: 2100000, guid: bde41ea47fc0a9f4dba9156152d98a9f, type: 3}
+  - {fileID: 2100000, guid: daa83f1df3a69f043a60b1e324ee5317, type: 2}
+  - {fileID: 2100000, guid: 790d29a2ec77d8e49974cd5a4e1d43db, type: 3}
+  - {fileID: 2100000, guid: c8fd631eea8403c4c84e5b6b37e31f5a, type: 3}
+  - {fileID: 2100000, guid: b4f3d6236b5310d42a391185b11cd001, type: 3}
+  - {fileID: 2100000, guid: f95147a9bab9fe649b8070170fa7ebd2, type: 3}
+  - {fileID: 2100000, guid: dfb97a9307a577a41bcacba34b9a7e32, type: 3}
+  - {fileID: 2100000, guid: a105a3f0e5561ab46b2aac754d2e7b25, type: 3}
+  - {fileID: 2100000, guid: 8125849ac2a1e6742b3cad98aa210e2d, type: 3}
+  - {fileID: 2100000, guid: 218e38133744b94479a41aa0bfb1b93f, type: 2}
+  - {fileID: 2100000, guid: 950b52b1cc154164c8075ad8e8d7012f, type: 2}
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 2100000, guid: 2408bf38dcaa24b418883488bbc18d78, type: 3}
+  - {fileID: 2100000, guid: 3052c11035790794183fa9714dcdf19f, type: 3}
+  - {fileID: 2100000, guid: 1062c701058745940ae5dca6219c64c8, type: 3}
+  - {fileID: 2100000, guid: 52e3e61137dad134ca7672171fe2a063, type: 3}
+  - {fileID: 2100000, guid: b156918299110d94594d881359839b40, type: 3}
+  - {fileID: 2100000, guid: 30dc370b164eefc43b95744fc796dad0, type: 3}
+  - {fileID: 2100000, guid: e18462ebdb554054e8c85c2e043c2ad9, type: 3}
+  - {fileID: 2100000, guid: f12704fc91e1a6440970d4fcd965ec5c, type: 3}
+  - {fileID: 2100000, guid: b2ea3b3f1765e544b9eb5bd1a93a91ce, type: 3}
+  - {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  - {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+  - {fileID: 2100000, guid: 3750c318f40cab44a97d3a81beaefeb3, type: 3}
+  - {fileID: 2100000, guid: 19a9abb883540be48b75b951a927ae03, type: 3}
+  - {fileID: 2100000, guid: a51a3aebb43ac044989270407476b208, type: 3}
+  - {fileID: 2100000, guid: 5e63515167650a541b309ba3bfd4db3d, type: 3}
+  - {fileID: 2100000, guid: 2a29e27936eb547458f646f71125b264, type: 3}
+  - {fileID: 2100000, guid: 889f5c6dbc5996c4d83d42382339a17c, type: 2}
+  - {fileID: 2100000, guid: 6375e9839c523c449b6851d10579bcb4, type: 2}
+  - {fileID: 2100000, guid: 2edc7d27dabb5ab49ba54ec90d1733a9, type: 2}
+  - {fileID: 2100000, guid: a00c7b2556c9409408d297e2be392c30, type: 2}
+  - {fileID: 2100000, guid: af241448f3d1f7940985fc2d4f455cef, type: 2}
+  - {fileID: 2100000, guid: c8c162af3fac7f145b8d1295eff18b1c, type: 2}
+  - {fileID: 2100000, guid: 03c4b968ffb030646b5abe98dff68dcc, type: 2}
+  - {fileID: 2100000, guid: 519ffdde64b6aa54180d54372779f0b0, type: 2}
+  materialsProperties:
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Default-Material
+    properties:
+    - name: _Color
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _Cutoff
+      type: 3
+    - name: _Glossiness
+      type: 3
+    - name: _GlossMapScale
+      type: 3
+    - name: _SmoothnessTextureChannel
+      type: 2
+    - name: _Metallic
+      type: 3
+    - name: _MetallicGlossMap
+      type: 4
+    - name: _SpecularHighlights
+      type: 2
+    - name: _GlossyReflections
+      type: 2
+    - name: _BumpScale
+      type: 2
+    - name: _BumpMap
+      type: 4
+    - name: _Parallax
+      type: 3
+    - name: _ParallaxMap
+      type: 4
+    - name: _OcclusionStrength
+      type: 3
+    - name: _OcclusionMap
+      type: 4
+    - name: _EmissionColor
+      type: 0
+    - name: _EmissionMap
+      type: 4
+    - name: _DetailMask
+      type: 4
+    - name: _DetailAlbedoMap
+      type: 4
+    - name: _DetailNormalMapScale
+      type: 2
+    - name: _DetailNormalMap
+      type: 4
+    - name: _UVSec
+      type: 2
+    - name: _Mode
+      type: 2
+    - name: _SrcBlend
+      type: 2
+    - name: _DstBlend
+      type: 2
+    - name: _ZWrite
+      type: 2
+  - name: Blue
+    properties:
+    - name: _Color
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _Cutoff
+      type: 3
+    - name: _Glossiness
+      type: 3
+    - name: _GlossMapScale
+      type: 3
+    - name: _SmoothnessTextureChannel
+      type: 2
+    - name: _Metallic
+      type: 3
+    - name: _MetallicGlossMap
+      type: 4
+    - name: _SpecularHighlights
+      type: 2
+    - name: _GlossyReflections
+      type: 2
+    - name: _BumpScale
+      type: 2
+    - name: _BumpMap
+      type: 4
+    - name: _Parallax
+      type: 3
+    - name: _ParallaxMap
+      type: 4
+    - name: _OcclusionStrength
+      type: 3
+    - name: _OcclusionMap
+      type: 4
+    - name: _EmissionColor
+      type: 0
+    - name: _EmissionMap
+      type: 4
+    - name: _DetailMask
+      type: 4
+    - name: _DetailAlbedoMap
+      type: 4
+    - name: _DetailNormalMapScale
+      type: 2
+    - name: _DetailNormalMap
+      type: 4
+    - name: _UVSec
+      type: 2
+    - name: _Mode
+      type: 2
+    - name: _SrcBlend
+      type: 2
+    - name: _DstBlend
+      type: 2
+    - name: _ZWrite
+      type: 2
+  - name: Red
+    properties:
+    - name: _Color
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _Cutoff
+      type: 3
+    - name: _Glossiness
+      type: 3
+    - name: _GlossMapScale
+      type: 3
+    - name: _SmoothnessTextureChannel
+      type: 2
+    - name: _Metallic
+      type: 3
+    - name: _MetallicGlossMap
+      type: 4
+    - name: _SpecularHighlights
+      type: 2
+    - name: _GlossyReflections
+      type: 2
+    - name: _BumpScale
+      type: 2
+    - name: _BumpMap
+      type: 4
+    - name: _Parallax
+      type: 3
+    - name: _ParallaxMap
+      type: 4
+    - name: _OcclusionStrength
+      type: 3
+    - name: _OcclusionMap
+      type: 4
+    - name: _EmissionColor
+      type: 0
+    - name: _EmissionMap
+      type: 4
+    - name: _DetailMask
+      type: 4
+    - name: _DetailAlbedoMap
+      type: 4
+    - name: _DetailNormalMapScale
+      type: 2
+    - name: _DetailNormalMap
+      type: 4
+    - name: _UVSec
+      type: 2
+    - name: _Mode
+      type: 2
+    - name: _SrcBlend
+      type: 2
+    - name: _DstBlend
+      type: 2
+    - name: _ZWrite
+      type: 2
+  - name: Green
+    properties:
+    - name: _Color
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _Cutoff
+      type: 3
+    - name: _Glossiness
+      type: 3
+    - name: _GlossMapScale
+      type: 3
+    - name: _SmoothnessTextureChannel
+      type: 2
+    - name: _Metallic
+      type: 3
+    - name: _MetallicGlossMap
+      type: 4
+    - name: _SpecularHighlights
+      type: 2
+    - name: _GlossyReflections
+      type: 2
+    - name: _BumpScale
+      type: 2
+    - name: _BumpMap
+      type: 4
+    - name: _Parallax
+      type: 3
+    - name: _ParallaxMap
+      type: 4
+    - name: _OcclusionStrength
+      type: 3
+    - name: _OcclusionMap
+      type: 4
+    - name: _EmissionColor
+      type: 0
+    - name: _EmissionMap
+      type: 4
+    - name: _DetailMask
+      type: 4
+    - name: _DetailAlbedoMap
+      type: 4
+    - name: _DetailNormalMapScale
+      type: 2
+    - name: _DetailNormalMap
+      type: 4
+    - name: _UVSec
+      type: 2
+    - name: _Mode
+      type: 2
+    - name: _SrcBlend
+      type: 2
+    - name: _DstBlend
+      type: 2
+    - name: _ZWrite
+      type: 2
+  - name: Green
+    properties:
+    - name: _Color
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _Cutoff
+      type: 3
+    - name: _Glossiness
+      type: 3
+    - name: _GlossMapScale
+      type: 3
+    - name: _SmoothnessTextureChannel
+      type: 2
+    - name: _Metallic
+      type: 3
+    - name: _MetallicGlossMap
+      type: 4
+    - name: _SpecularHighlights
+      type: 2
+    - name: _GlossyReflections
+      type: 2
+    - name: _BumpScale
+      type: 2
+    - name: _BumpMap
+      type: 4
+    - name: _Parallax
+      type: 3
+    - name: _ParallaxMap
+      type: 4
+    - name: _OcclusionStrength
+      type: 3
+    - name: _OcclusionMap
+      type: 4
+    - name: _EmissionColor
+      type: 0
+    - name: _EmissionMap
+      type: 4
+    - name: _DetailMask
+      type: 4
+    - name: _DetailAlbedoMap
+      type: 4
+    - name: _DetailNormalMapScale
+      type: 2
+    - name: _DetailNormalMap
+      type: 4
+    - name: _UVSec
+      type: 2
+    - name: _Mode
+      type: 2
+    - name: _SrcBlend
+      type: 2
+    - name: _DstBlend
+      type: 2
+    - name: _ZWrite
+      type: 2
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Cotton
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: _Alpha
+      type: 3
+    - name: _GlowColor
+      type: 0
+    - name: _Glow
+      type: 3
+    - name: _GlowTexUsed
+      type: 2
+    - name: _GlowTex
+      type: 4
+    - name: _FadeTex
+      type: 4
+    - name: _FadeAmount
+      type: 3
+    - name: _FadeBurnWidth
+      type: 3
+    - name: _FadeBurnTransition
+      type: 3
+    - name: _FadeBurnColor
+      type: 0
+    - name: _FadeBurnTex
+      type: 4
+    - name: _FadeBurnGlow
+      type: 3
+    - name: _OutlineColor
+      type: 0
+    - name: _OutlineAlpha
+      type: 3
+    - name: _OutlineGlow
+      type: 3
+    - name: _Outline8Directions
+      type: 2
+    - name: _OutlineWidth
+      type: 3
+    - name: _OutlineIsPixel
+      type: 2
+    - name: _OutlinePixelWidth
+      type: 2
+    - name: _OutlineTexToggle
+      type: 2
+    - name: _OutlineTex
+      type: 4
+    - name: _OutlineTexXSpeed
+      type: 3
+    - name: _OutlineTexYSpeed
+      type: 3
+    - name: _OutlineTexGrey
+      type: 2
+    - name: _OutlineDistortToggle
+      type: 2
+    - name: _OutlineDistortTex
+      type: 4
+    - name: _OutlineDistortAmount
+      type: 3
+    - name: _OutlineDistortTexXSpeed
+      type: 3
+    - name: _OutlineDistortTexYSpeed
+      type: 3
+    - name: _GradBlend
+      type: 3
+    - name: _GradTopLeftCol
+      type: 0
+    - name: _GradTopRightCol
+      type: 0
+    - name: _GradBotLeftCol
+      type: 0
+    - name: _GradBotRightCol
+      type: 0
+    - name: _ColorSwapTex
+      type: 4
+    - name: _ColorSwapRed
+      type: 0
+    - name: _ColorSwapRedLuminosity
+      type: 3
+    - name: _ColorSwapGreen
+      type: 0
+    - name: _ColorSwapGreenLuminosity
+      type: 3
+    - name: _ColorSwapBlue
+      type: 0
+    - name: _ColorSwapBlueLuminosity
+      type: 3
+    - name: _HsvShift
+      type: 3
+    - name: _HsvSaturation
+      type: 3
+    - name: _HsvBright
+      type: 3
+    - name: _HitEffectColor
+      type: 0
+    - name: _HitEffectGlow
+      type: 3
+    - name: _HitEffectBlend
+      type: 3
+    - name: _NegativeAmount
+      type: 3
+    - name: _PixelateSize
+      type: 3
+    - name: _ColorRampTex
+      type: 4
+    - name: _ColorRampLuminosity
+      type: 3
+    - name: _ColorRampOutline
+      type: 2
+    - name: _GreyscaleLuminosity
+      type: 3
+    - name: _GreyscaleOutline
+      type: 2
+    - name: _GreyscaleTintColor
+      type: 0
+    - name: _PosterizeNumColors
+      type: 3
+    - name: _PosterizeGamma
+      type: 3
+    - name: _PosterizeOutline
+      type: 2
+    - name: _BlurIntensity
+      type: 3
+    - name: _BlurHD
+      type: 2
+    - name: _MotionBlurAngle
+      type: 3
+    - name: _MotionBlurDist
+      type: 3
+    - name: _GhostColorBoost
+      type: 3
+    - name: _GhostTransparency
+      type: 3
+    - name: _InnerOutlineColor
+      type: 0
+    - name: _InnerOutlineThickness
+      type: 3
+    - name: _InnerOutlineAlpha
+      type: 3
+    - name: _InnerOutlineGlow
+      type: 3
+    - name: _AlphaCutoffValue
+      type: 3
+    - name: _OnlyOutline
+      type: 2
+    - name: _OnlyInnerOutline
+      type: 2
+    - name: _HologramStripesAmount
+      type: 3
+    - name: _HologramUnmodAmount
+      type: 3
+    - name: _HologramStripesSpeed
+      type: 3
+    - name: _HologramMinAlpha
+      type: 3
+    - name: _HologramMaxAlpha
+      type: 3
+    - name: _ChromAberrAmount
+      type: 3
+    - name: _ChromAberrAlpha
+      type: 3
+    - name: _GlitchAmount
+      type: 3
+    - name: _FlickerPercent
+      type: 3
+    - name: _FlickerFreq
+      type: 3
+    - name: _FlickerAlpha
+      type: 3
+    - name: _ShadowX
+      type: 3
+    - name: _ShadowY
+      type: 3
+    - name: _ShadowAlpha
+      type: 3
+    - name: _ShadowColor
+      type: 0
+    - name: _HandDrawnAmount
+      type: 3
+    - name: _HandDrawnSpeed
+      type: 3
+    - name: _GrassSpeed
+      type: 3
+    - name: _GrassWind
+      type: 3
+    - name: _GrassManualToggle
+      type: 2
+    - name: _GrassManualAnim
+      type: 3
+    - name: _WaveAmount
+      type: 3
+    - name: _WaveSpeed
+      type: 3
+    - name: _WaveStrength
+      type: 3
+    - name: _WaveX
+      type: 3
+    - name: _WaveY
+      type: 3
+    - name: _RectSize
+      type: 3
+    - name: _OffsetUvX
+      type: 3
+    - name: _OffsetUvY
+      type: 3
+    - name: _ClipUvLeft
+      type: 3
+    - name: _ClipUvRight
+      type: 3
+    - name: _ClipUvUp
+      type: 3
+    - name: _ClipUvDown
+      type: 3
+    - name: _TextureScrollXSpeed
+      type: 3
+    - name: _TextureScrollYSpeed
+      type: 3
+    - name: _ZoomUvAmount
+      type: 3
+    - name: _DistortTex
+      type: 4
+    - name: _DistortAmount
+      type: 3
+    - name: _DistortTexXSpeed
+      type: 3
+    - name: _DistortTexYSpeed
+      type: 3
+    - name: _TwistUvAmount
+      type: 3
+    - name: _TwistUvPosX
+      type: 3
+    - name: _TwistUvPosY
+      type: 3
+    - name: _TwistUvRadius
+      type: 3
+    - name: _RotateUvAmount
+      type: 3
+    - name: _FishEyeUvAmount
+      type: 3
+    - name: _PinchUvAmount
+      type: 3
+    - name: _ShakeUvSpeed
+      type: 3
+    - name: _ShakeUvX
+      type: 3
+    - name: _ShakeUvY
+      type: 3
+    - name: _ColorChangeTolerance
+      type: 3
+    - name: _ColorChangeTarget
+      type: 0
+    - name: _ColorChangeNewCol
+      type: 0
+    - name: _ColorChangeLuminosity
+      type: 3
+    - name: _RoundWaveStrength
+      type: 3
+    - name: _RoundWaveSpeed
+      type: 3
+    - name: _BillboardY
+      type: 2
+    - name: _ZWrite
+      type: 2
+    - name: _MySrcMode
+      type: 2
+    - name: _MyDstMode
+      type: 2
+    - name: _ShineColor
+      type: 0
+    - name: _ShineLocation
+      type: 3
+    - name: _ShineWidth
+      type: 3
+    - name: _ShineGlow
+      type: 3
+    - name: _ShineMask
+      type: 4
+    - name: _GlitchSize
+      type: 3
+    - name: _ZTestMode
+      type: 2
+    - name: _MinXUV
+      type: 3
+    - name: _MaxXUV
+      type: 3
+    - name: _MinYUV
+      type: 3
+    - name: _MaxYUV
+      type: 3
+    - name: _RandomSeed
+      type: 3
+  - name: ProjectorMaterial
+    properties:
+    - name: _Color
+      type: 0
+    - name: _Attenuation
+      type: 3
+    - name: _ShadowTex
+      type: 4
+  - name: Sprites-Default
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: PixelSnap
+      type: 2
+    - name: _RendererColor
+      type: 0
+    - name: _Flip
+      type: 1
+    - name: _AlphaTex
+      type: 4
+    - name: _EnableExternalAlpha
+      type: 2
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Grass
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: PixelSnap
+      type: 2
+    - name: _RendererColor
+      type: 0
+    - name: _Flip
+      type: 1
+    - name: _AlphaTex
+      type: 4
+    - name: _EnableExternalAlpha
+      type: 2
+  - name: Red
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: PixelSnap
+      type: 2
+    - name: _RendererColor
+      type: 0
+    - name: _Flip
+      type: 1
+    - name: _AlphaTex
+      type: 4
+    - name: _EnableExternalAlpha
+      type: 2
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: PathLineTexture
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: PixelSnap
+      type: 2
+    - name: _RendererColor
+      type: 0
+    - name: _Flip
+      type: 1
+    - name: _AlphaTex
+      type: 4
+    - name: _EnableExternalAlpha
+      type: 2
+  - name: Nothing
+    properties:
+    - name: _Color
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _Cutoff
+      type: 3
+    - name: _Glossiness
+      type: 3
+    - name: _GlossMapScale
+      type: 3
+    - name: _SmoothnessTextureChannel
+      type: 2
+    - name: _Metallic
+      type: 3
+    - name: _MetallicGlossMap
+      type: 4
+    - name: _SpecularHighlights
+      type: 2
+    - name: _GlossyReflections
+      type: 2
+    - name: _BumpScale
+      type: 2
+    - name: _BumpMap
+      type: 4
+    - name: _Parallax
+      type: 3
+    - name: _ParallaxMap
+      type: 4
+    - name: _OcclusionStrength
+      type: 3
+    - name: _OcclusionMap
+      type: 4
+    - name: _EmissionColor
+      type: 0
+    - name: _EmissionMap
+      type: 4
+    - name: _DetailMask
+      type: 4
+    - name: _DetailAlbedoMap
+      type: 4
+    - name: _DetailNormalMapScale
+      type: 2
+    - name: _DetailNormalMap
+      type: 4
+    - name: _UVSec
+      type: 2
+    - name: _Mode
+      type: 2
+    - name: _SrcBlend
+      type: 2
+    - name: _DstBlend
+      type: 2
+    - name: _ZWrite
+      type: 2
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Default-Particle
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _InvFade
+      type: 3
+  - name: Grass
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: _Alpha
+      type: 3
+    - name: _GlowColor
+      type: 0
+    - name: _Glow
+      type: 3
+    - name: _GlowTexUsed
+      type: 2
+    - name: _GlowTex
+      type: 4
+    - name: _FadeTex
+      type: 4
+    - name: _FadeAmount
+      type: 3
+    - name: _FadeBurnWidth
+      type: 3
+    - name: _FadeBurnTransition
+      type: 3
+    - name: _FadeBurnColor
+      type: 0
+    - name: _FadeBurnTex
+      type: 4
+    - name: _FadeBurnGlow
+      type: 3
+    - name: _OutlineColor
+      type: 0
+    - name: _OutlineAlpha
+      type: 3
+    - name: _OutlineGlow
+      type: 3
+    - name: _Outline8Directions
+      type: 2
+    - name: _OutlineWidth
+      type: 3
+    - name: _OutlineIsPixel
+      type: 2
+    - name: _OutlinePixelWidth
+      type: 2
+    - name: _OutlineTexToggle
+      type: 2
+    - name: _OutlineTex
+      type: 4
+    - name: _OutlineTexXSpeed
+      type: 3
+    - name: _OutlineTexYSpeed
+      type: 3
+    - name: _OutlineTexGrey
+      type: 2
+    - name: _OutlineDistortToggle
+      type: 2
+    - name: _OutlineDistortTex
+      type: 4
+    - name: _OutlineDistortAmount
+      type: 3
+    - name: _OutlineDistortTexXSpeed
+      type: 3
+    - name: _OutlineDistortTexYSpeed
+      type: 3
+    - name: _GradBlend
+      type: 3
+    - name: _GradTopLeftCol
+      type: 0
+    - name: _GradTopRightCol
+      type: 0
+    - name: _GradBotLeftCol
+      type: 0
+    - name: _GradBotRightCol
+      type: 0
+    - name: _ColorSwapTex
+      type: 4
+    - name: _ColorSwapRed
+      type: 0
+    - name: _ColorSwapRedLuminosity
+      type: 3
+    - name: _ColorSwapGreen
+      type: 0
+    - name: _ColorSwapGreenLuminosity
+      type: 3
+    - name: _ColorSwapBlue
+      type: 0
+    - name: _ColorSwapBlueLuminosity
+      type: 3
+    - name: _HsvShift
+      type: 3
+    - name: _HsvSaturation
+      type: 3
+    - name: _HsvBright
+      type: 3
+    - name: _HitEffectColor
+      type: 0
+    - name: _HitEffectGlow
+      type: 3
+    - name: _HitEffectBlend
+      type: 3
+    - name: _NegativeAmount
+      type: 3
+    - name: _PixelateSize
+      type: 3
+    - name: _ColorRampTex
+      type: 4
+    - name: _ColorRampLuminosity
+      type: 3
+    - name: _ColorRampOutline
+      type: 2
+    - name: _GreyscaleLuminosity
+      type: 3
+    - name: _GreyscaleOutline
+      type: 2
+    - name: _GreyscaleTintColor
+      type: 0
+    - name: _PosterizeNumColors
+      type: 3
+    - name: _PosterizeGamma
+      type: 3
+    - name: _PosterizeOutline
+      type: 2
+    - name: _BlurIntensity
+      type: 3
+    - name: _BlurHD
+      type: 2
+    - name: _MotionBlurAngle
+      type: 3
+    - name: _MotionBlurDist
+      type: 3
+    - name: _GhostColorBoost
+      type: 3
+    - name: _GhostTransparency
+      type: 3
+    - name: _InnerOutlineColor
+      type: 0
+    - name: _InnerOutlineThickness
+      type: 3
+    - name: _InnerOutlineAlpha
+      type: 3
+    - name: _InnerOutlineGlow
+      type: 3
+    - name: _AlphaCutoffValue
+      type: 3
+    - name: _OnlyOutline
+      type: 2
+    - name: _OnlyInnerOutline
+      type: 2
+    - name: _HologramStripesAmount
+      type: 3
+    - name: _HologramUnmodAmount
+      type: 3
+    - name: _HologramStripesSpeed
+      type: 3
+    - name: _HologramMinAlpha
+      type: 3
+    - name: _HologramMaxAlpha
+      type: 3
+    - name: _ChromAberrAmount
+      type: 3
+    - name: _ChromAberrAlpha
+      type: 3
+    - name: _GlitchAmount
+      type: 3
+    - name: _FlickerPercent
+      type: 3
+    - name: _FlickerFreq
+      type: 3
+    - name: _FlickerAlpha
+      type: 3
+    - name: _ShadowX
+      type: 3
+    - name: _ShadowY
+      type: 3
+    - name: _ShadowAlpha
+      type: 3
+    - name: _ShadowColor
+      type: 0
+    - name: _HandDrawnAmount
+      type: 3
+    - name: _HandDrawnSpeed
+      type: 3
+    - name: _GrassSpeed
+      type: 3
+    - name: _GrassWind
+      type: 3
+    - name: _GrassManualToggle
+      type: 2
+    - name: _GrassManualAnim
+      type: 3
+    - name: _WaveAmount
+      type: 3
+    - name: _WaveSpeed
+      type: 3
+    - name: _WaveStrength
+      type: 3
+    - name: _WaveX
+      type: 3
+    - name: _WaveY
+      type: 3
+    - name: _RectSize
+      type: 3
+    - name: _OffsetUvX
+      type: 3
+    - name: _OffsetUvY
+      type: 3
+    - name: _ClipUvLeft
+      type: 3
+    - name: _ClipUvRight
+      type: 3
+    - name: _ClipUvUp
+      type: 3
+    - name: _ClipUvDown
+      type: 3
+    - name: _TextureScrollXSpeed
+      type: 3
+    - name: _TextureScrollYSpeed
+      type: 3
+    - name: _ZoomUvAmount
+      type: 3
+    - name: _DistortTex
+      type: 4
+    - name: _DistortAmount
+      type: 3
+    - name: _DistortTexXSpeed
+      type: 3
+    - name: _DistortTexYSpeed
+      type: 3
+    - name: _TwistUvAmount
+      type: 3
+    - name: _TwistUvPosX
+      type: 3
+    - name: _TwistUvPosY
+      type: 3
+    - name: _TwistUvRadius
+      type: 3
+    - name: _RotateUvAmount
+      type: 3
+    - name: _FishEyeUvAmount
+      type: 3
+    - name: _PinchUvAmount
+      type: 3
+    - name: _ShakeUvSpeed
+      type: 3
+    - name: _ShakeUvX
+      type: 3
+    - name: _ShakeUvY
+      type: 3
+    - name: _ColorChangeTolerance
+      type: 3
+    - name: _ColorChangeTarget
+      type: 0
+    - name: _ColorChangeNewCol
+      type: 0
+    - name: _ColorChangeLuminosity
+      type: 3
+    - name: _RoundWaveStrength
+      type: 3
+    - name: _RoundWaveSpeed
+      type: 3
+    - name: _BillboardY
+      type: 2
+    - name: _ZWrite
+      type: 2
+    - name: _MySrcMode
+      type: 2
+    - name: _MyDstMode
+      type: 2
+    - name: _ShineColor
+      type: 0
+    - name: _ShineLocation
+      type: 3
+    - name: _ShineWidth
+      type: 3
+    - name: _ShineGlow
+      type: 3
+    - name: _ShineMask
+      type: 4
+    - name: _GlitchSize
+      type: 3
+    - name: _ZTestMode
+      type: 2
+    - name: _MinXUV
+      type: 3
+    - name: _MaxXUV
+      type: 3
+    - name: _MinYUV
+      type: 3
+    - name: _MaxYUV
+      type: 3
+    - name: _RandomSeed
+      type: 3
+  - name: Default-Diffuse
+    properties:
+    - name: _Color
+      type: 0
+    - name: _MainTex
+      type: 4
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: CharacterMaterials
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: _Alpha
+      type: 3
+    - name: _GlowColor
+      type: 0
+    - name: _Glow
+      type: 3
+    - name: _GlowTexUsed
+      type: 2
+    - name: _GlowTex
+      type: 4
+    - name: _FadeTex
+      type: 4
+    - name: _FadeAmount
+      type: 3
+    - name: _FadeBurnWidth
+      type: 3
+    - name: _FadeBurnTransition
+      type: 3
+    - name: _FadeBurnColor
+      type: 0
+    - name: _FadeBurnTex
+      type: 4
+    - name: _FadeBurnGlow
+      type: 3
+    - name: _OutlineColor
+      type: 0
+    - name: _OutlineAlpha
+      type: 3
+    - name: _OutlineGlow
+      type: 3
+    - name: _Outline8Directions
+      type: 2
+    - name: _OutlineWidth
+      type: 3
+    - name: _OutlineIsPixel
+      type: 2
+    - name: _OutlinePixelWidth
+      type: 2
+    - name: _OutlineTexToggle
+      type: 2
+    - name: _OutlineTex
+      type: 4
+    - name: _OutlineTexXSpeed
+      type: 3
+    - name: _OutlineTexYSpeed
+      type: 3
+    - name: _OutlineTexGrey
+      type: 2
+    - name: _OutlineDistortToggle
+      type: 2
+    - name: _OutlineDistortTex
+      type: 4
+    - name: _OutlineDistortAmount
+      type: 3
+    - name: _OutlineDistortTexXSpeed
+      type: 3
+    - name: _OutlineDistortTexYSpeed
+      type: 3
+    - name: _GradBlend
+      type: 3
+    - name: _GradTopLeftCol
+      type: 0
+    - name: _GradTopRightCol
+      type: 0
+    - name: _GradBotLeftCol
+      type: 0
+    - name: _GradBotRightCol
+      type: 0
+    - name: _ColorSwapTex
+      type: 4
+    - name: _ColorSwapRed
+      type: 0
+    - name: _ColorSwapRedLuminosity
+      type: 3
+    - name: _ColorSwapGreen
+      type: 0
+    - name: _ColorSwapGreenLuminosity
+      type: 3
+    - name: _ColorSwapBlue
+      type: 0
+    - name: _ColorSwapBlueLuminosity
+      type: 3
+    - name: _HsvShift
+      type: 3
+    - name: _HsvSaturation
+      type: 3
+    - name: _HsvBright
+      type: 3
+    - name: _HitEffectColor
+      type: 0
+    - name: _HitEffectGlow
+      type: 3
+    - name: _HitEffectBlend
+      type: 3
+    - name: _NegativeAmount
+      type: 3
+    - name: _PixelateSize
+      type: 3
+    - name: _ColorRampTex
+      type: 4
+    - name: _ColorRampLuminosity
+      type: 3
+    - name: _ColorRampOutline
+      type: 2
+    - name: _GreyscaleLuminosity
+      type: 3
+    - name: _GreyscaleOutline
+      type: 2
+    - name: _GreyscaleTintColor
+      type: 0
+    - name: _PosterizeNumColors
+      type: 3
+    - name: _PosterizeGamma
+      type: 3
+    - name: _PosterizeOutline
+      type: 2
+    - name: _BlurIntensity
+      type: 3
+    - name: _BlurHD
+      type: 2
+    - name: _MotionBlurAngle
+      type: 3
+    - name: _MotionBlurDist
+      type: 3
+    - name: _GhostColorBoost
+      type: 3
+    - name: _GhostTransparency
+      type: 3
+    - name: _InnerOutlineColor
+      type: 0
+    - name: _InnerOutlineThickness
+      type: 3
+    - name: _InnerOutlineAlpha
+      type: 3
+    - name: _InnerOutlineGlow
+      type: 3
+    - name: _AlphaCutoffValue
+      type: 3
+    - name: _OnlyOutline
+      type: 2
+    - name: _OnlyInnerOutline
+      type: 2
+    - name: _HologramStripesAmount
+      type: 3
+    - name: _HologramUnmodAmount
+      type: 3
+    - name: _HologramStripesSpeed
+      type: 3
+    - name: _HologramMinAlpha
+      type: 3
+    - name: _HologramMaxAlpha
+      type: 3
+    - name: _ChromAberrAmount
+      type: 3
+    - name: _ChromAberrAlpha
+      type: 3
+    - name: _GlitchAmount
+      type: 3
+    - name: _FlickerPercent
+      type: 3
+    - name: _FlickerFreq
+      type: 3
+    - name: _FlickerAlpha
+      type: 3
+    - name: _ShadowX
+      type: 3
+    - name: _ShadowY
+      type: 3
+    - name: _ShadowAlpha
+      type: 3
+    - name: _ShadowColor
+      type: 0
+    - name: _HandDrawnAmount
+      type: 3
+    - name: _HandDrawnSpeed
+      type: 3
+    - name: _GrassSpeed
+      type: 3
+    - name: _GrassWind
+      type: 3
+    - name: _GrassManualToggle
+      type: 2
+    - name: _GrassManualAnim
+      type: 3
+    - name: _WaveAmount
+      type: 3
+    - name: _WaveSpeed
+      type: 3
+    - name: _WaveStrength
+      type: 3
+    - name: _WaveX
+      type: 3
+    - name: _WaveY
+      type: 3
+    - name: _RectSize
+      type: 3
+    - name: _OffsetUvX
+      type: 3
+    - name: _OffsetUvY
+      type: 3
+    - name: _ClipUvLeft
+      type: 3
+    - name: _ClipUvRight
+      type: 3
+    - name: _ClipUvUp
+      type: 3
+    - name: _ClipUvDown
+      type: 3
+    - name: _TextureScrollXSpeed
+      type: 3
+    - name: _TextureScrollYSpeed
+      type: 3
+    - name: _ZoomUvAmount
+      type: 3
+    - name: _DistortTex
+      type: 4
+    - name: _DistortAmount
+      type: 3
+    - name: _DistortTexXSpeed
+      type: 3
+    - name: _DistortTexYSpeed
+      type: 3
+    - name: _TwistUvAmount
+      type: 3
+    - name: _TwistUvPosX
+      type: 3
+    - name: _TwistUvPosY
+      type: 3
+    - name: _TwistUvRadius
+      type: 3
+    - name: _RotateUvAmount
+      type: 3
+    - name: _FishEyeUvAmount
+      type: 3
+    - name: _PinchUvAmount
+      type: 3
+    - name: _ShakeUvSpeed
+      type: 3
+    - name: _ShakeUvX
+      type: 3
+    - name: _ShakeUvY
+      type: 3
+    - name: _ColorChangeTolerance
+      type: 3
+    - name: _ColorChangeTarget
+      type: 0
+    - name: _ColorChangeNewCol
+      type: 0
+    - name: _ColorChangeLuminosity
+      type: 3
+    - name: _RoundWaveStrength
+      type: 3
+    - name: _RoundWaveSpeed
+      type: 3
+    - name: _BillboardY
+      type: 2
+    - name: _ZWrite
+      type: 2
+    - name: _MySrcMode
+      type: 2
+    - name: _MyDstMode
+      type: 2
+    - name: _ShineColor
+      type: 0
+    - name: _ShineLocation
+      type: 3
+    - name: _ShineWidth
+      type: 3
+    - name: _ShineGlow
+      type: 3
+    - name: _ShineMask
+      type: 4
+    - name: _GlitchSize
+      type: 3
+    - name: _ZTestMode
+      type: 2
+    - name: _MinXUV
+      type: 3
+    - name: _MaxXUV
+      type: 3
+    - name: _MinYUV
+      type: 3
+    - name: _MaxYUV
+      type: 3
+    - name: _RandomSeed
+      type: 3
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Default
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: PixelSnap
+      type: 2
+    - name: _RendererColor
+      type: 0
+    - name: _Flip
+      type: 1
+    - name: _AlphaTex
+      type: 4
+    - name: _EnableExternalAlpha
+      type: 2
+  - name: ShawdowMaterial
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: LiberationSans SDF Material
+    properties:
+    - name: _FaceColor
+      type: 0
+    - name: _FaceDilate
+      type: 3
+    - name: _OutlineColor
+      type: 0
+    - name: _OutlineWidth
+      type: 3
+    - name: _OutlineSoftness
+      type: 3
+    - name: _UnderlayColor
+      type: 0
+    - name: _UnderlayOffsetX
+      type: 3
+    - name: _UnderlayOffsetY
+      type: 3
+    - name: _UnderlayDilate
+      type: 3
+    - name: _UnderlaySoftness
+      type: 3
+    - name: _WeightNormal
+      type: 2
+    - name: _WeightBold
+      type: 2
+    - name: _ShaderFlags
+      type: 2
+    - name: _ScaleRatioA
+      type: 2
+    - name: _ScaleRatioB
+      type: 2
+    - name: _ScaleRatioC
+      type: 2
+    - name: _MainTex
+      type: 4
+    - name: _TextureWidth
+      type: 2
+    - name: _TextureHeight
+      type: 2
+    - name: _GradientScale
+      type: 2
+    - name: _ScaleX
+      type: 2
+    - name: _ScaleY
+      type: 2
+    - name: _PerspectiveFilter
+      type: 3
+    - name: _Sharpness
+      type: 3
+    - name: _VertexOffsetX
+      type: 2
+    - name: _VertexOffsetY
+      type: 2
+    - name: _ClipRect
+      type: 1
+    - name: _MaskSoftnessX
+      type: 2
+    - name: _MaskSoftnessY
+      type: 2
+    - name: _StencilComp
+      type: 2
+    - name: _Stencil
+      type: 2
+    - name: _StencilOp
+      type: 2
+    - name: _StencilWriteMask
+      type: 2
+    - name: _StencilReadMask
+      type: 2
+    - name: _ColorMask
+      type: 2
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: LiberationSans SDF Material
+    properties:
+    - name: _FaceColor
+      type: 0
+    - name: _FaceDilate
+      type: 3
+    - name: _OutlineColor
+      type: 0
+    - name: _OutlineWidth
+      type: 3
+    - name: _OutlineSoftness
+      type: 3
+    - name: _UnderlayColor
+      type: 0
+    - name: _UnderlayOffsetX
+      type: 3
+    - name: _UnderlayOffsetY
+      type: 3
+    - name: _UnderlayDilate
+      type: 3
+    - name: _UnderlaySoftness
+      type: 3
+    - name: _WeightNormal
+      type: 2
+    - name: _WeightBold
+      type: 2
+    - name: _ShaderFlags
+      type: 2
+    - name: _ScaleRatioA
+      type: 2
+    - name: _ScaleRatioB
+      type: 2
+    - name: _ScaleRatioC
+      type: 2
+    - name: _MainTex
+      type: 4
+    - name: _TextureWidth
+      type: 2
+    - name: _TextureHeight
+      type: 2
+    - name: _GradientScale
+      type: 2
+    - name: _ScaleX
+      type: 2
+    - name: _ScaleY
+      type: 2
+    - name: _PerspectiveFilter
+      type: 3
+    - name: _Sharpness
+      type: 3
+    - name: _VertexOffsetX
+      type: 2
+    - name: _VertexOffsetY
+      type: 2
+    - name: _ClipRect
+      type: 1
+    - name: _MaskSoftnessX
+      type: 2
+    - name: _MaskSoftnessY
+      type: 2
+    - name: _StencilComp
+      type: 2
+    - name: _Stencil
+      type: 2
+    - name: _StencilOp
+      type: 2
+    - name: _StencilWriteMask
+      type: 2
+    - name: _StencilReadMask
+      type: 2
+    - name: _ColorMask
+      type: 2
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: Font Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+  - name: WallPlace
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: PixelSnap
+      type: 2
+    - name: _RendererColor
+      type: 0
+    - name: _Flip
+      type: 1
+    - name: _AlphaTex
+      type: 4
+    - name: _EnableExternalAlpha
+      type: 2
+  - name: Wall
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: PixelSnap
+      type: 2
+    - name: _RendererColor
+      type: 0
+    - name: _Flip
+      type: 1
+    - name: _AlphaTex
+      type: 4
+    - name: _EnableExternalAlpha
+      type: 2
+  - name: Ground_001
+    properties:
+    - name: _Color
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _Cutoff
+      type: 3
+    - name: _Glossiness
+      type: 3
+    - name: _GlossMapScale
+      type: 3
+    - name: _SmoothnessTextureChannel
+      type: 2
+    - name: _Metallic
+      type: 3
+    - name: _MetallicGlossMap
+      type: 4
+    - name: _SpecularHighlights
+      type: 2
+    - name: _GlossyReflections
+      type: 2
+    - name: _BumpScale
+      type: 2
+    - name: _BumpMap
+      type: 4
+    - name: _Parallax
+      type: 3
+    - name: _ParallaxMap
+      type: 4
+    - name: _OcclusionStrength
+      type: 3
+    - name: _OcclusionMap
+      type: 4
+    - name: _EmissionColor
+      type: 0
+    - name: _EmissionMap
+      type: 4
+    - name: _DetailMask
+      type: 4
+    - name: _DetailAlbedoMap
+      type: 4
+    - name: _DetailNormalMapScale
+      type: 2
+    - name: _DetailNormalMap
+      type: 4
+    - name: _UVSec
+      type: 2
+    - name: _Mode
+      type: 2
+    - name: _SrcBlend
+      type: 2
+    - name: _DstBlend
+      type: 2
+    - name: _ZWrite
+      type: 2
+  - name: Tree_001
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: _Alpha
+      type: 3
+    - name: _GlowColor
+      type: 0
+    - name: _Glow
+      type: 3
+    - name: _GlowTexUsed
+      type: 2
+    - name: _GlowTex
+      type: 4
+    - name: _FadeTex
+      type: 4
+    - name: _FadeAmount
+      type: 3
+    - name: _FadeBurnWidth
+      type: 3
+    - name: _FadeBurnTransition
+      type: 3
+    - name: _FadeBurnColor
+      type: 0
+    - name: _FadeBurnTex
+      type: 4
+    - name: _FadeBurnGlow
+      type: 3
+    - name: _OutlineColor
+      type: 0
+    - name: _OutlineAlpha
+      type: 3
+    - name: _OutlineGlow
+      type: 3
+    - name: _Outline8Directions
+      type: 2
+    - name: _OutlineWidth
+      type: 3
+    - name: _OutlineIsPixel
+      type: 2
+    - name: _OutlinePixelWidth
+      type: 2
+    - name: _OutlineTexToggle
+      type: 2
+    - name: _OutlineTex
+      type: 4
+    - name: _OutlineTexXSpeed
+      type: 3
+    - name: _OutlineTexYSpeed
+      type: 3
+    - name: _OutlineTexGrey
+      type: 2
+    - name: _OutlineDistortToggle
+      type: 2
+    - name: _OutlineDistortTex
+      type: 4
+    - name: _OutlineDistortAmount
+      type: 3
+    - name: _OutlineDistortTexXSpeed
+      type: 3
+    - name: _OutlineDistortTexYSpeed
+      type: 3
+    - name: _GradBlend
+      type: 3
+    - name: _GradTopLeftCol
+      type: 0
+    - name: _GradTopRightCol
+      type: 0
+    - name: _GradBotLeftCol
+      type: 0
+    - name: _GradBotRightCol
+      type: 0
+    - name: _ColorSwapTex
+      type: 4
+    - name: _ColorSwapRed
+      type: 0
+    - name: _ColorSwapRedLuminosity
+      type: 3
+    - name: _ColorSwapGreen
+      type: 0
+    - name: _ColorSwapGreenLuminosity
+      type: 3
+    - name: _ColorSwapBlue
+      type: 0
+    - name: _ColorSwapBlueLuminosity
+      type: 3
+    - name: _HsvShift
+      type: 3
+    - name: _HsvSaturation
+      type: 3
+    - name: _HsvBright
+      type: 3
+    - name: _HitEffectColor
+      type: 0
+    - name: _HitEffectGlow
+      type: 3
+    - name: _HitEffectBlend
+      type: 3
+    - name: _NegativeAmount
+      type: 3
+    - name: _PixelateSize
+      type: 3
+    - name: _ColorRampTex
+      type: 4
+    - name: _ColorRampLuminosity
+      type: 3
+    - name: _ColorRampOutline
+      type: 2
+    - name: _GreyscaleLuminosity
+      type: 3
+    - name: _GreyscaleOutline
+      type: 2
+    - name: _GreyscaleTintColor
+      type: 0
+    - name: _PosterizeNumColors
+      type: 3
+    - name: _PosterizeGamma
+      type: 3
+    - name: _PosterizeOutline
+      type: 2
+    - name: _BlurIntensity
+      type: 3
+    - name: _BlurHD
+      type: 2
+    - name: _MotionBlurAngle
+      type: 3
+    - name: _MotionBlurDist
+      type: 3
+    - name: _GhostColorBoost
+      type: 3
+    - name: _GhostTransparency
+      type: 3
+    - name: _InnerOutlineColor
+      type: 0
+    - name: _InnerOutlineThickness
+      type: 3
+    - name: _InnerOutlineAlpha
+      type: 3
+    - name: _InnerOutlineGlow
+      type: 3
+    - name: _AlphaCutoffValue
+      type: 3
+    - name: _OnlyOutline
+      type: 2
+    - name: _OnlyInnerOutline
+      type: 2
+    - name: _HologramStripesAmount
+      type: 3
+    - name: _HologramUnmodAmount
+      type: 3
+    - name: _HologramStripesSpeed
+      type: 3
+    - name: _HologramMinAlpha
+      type: 3
+    - name: _HologramMaxAlpha
+      type: 3
+    - name: _ChromAberrAmount
+      type: 3
+    - name: _ChromAberrAlpha
+      type: 3
+    - name: _GlitchAmount
+      type: 3
+    - name: _FlickerPercent
+      type: 3
+    - name: _FlickerFreq
+      type: 3
+    - name: _FlickerAlpha
+      type: 3
+    - name: _ShadowX
+      type: 3
+    - name: _ShadowY
+      type: 3
+    - name: _ShadowAlpha
+      type: 3
+    - name: _ShadowColor
+      type: 0
+    - name: _HandDrawnAmount
+      type: 3
+    - name: _HandDrawnSpeed
+      type: 3
+    - name: _GrassSpeed
+      type: 3
+    - name: _GrassWind
+      type: 3
+    - name: _GrassManualToggle
+      type: 2
+    - name: _GrassManualAnim
+      type: 3
+    - name: _WaveAmount
+      type: 3
+    - name: _WaveSpeed
+      type: 3
+    - name: _WaveStrength
+      type: 3
+    - name: _WaveX
+      type: 3
+    - name: _WaveY
+      type: 3
+    - name: _RectSize
+      type: 3
+    - name: _OffsetUvX
+      type: 3
+    - name: _OffsetUvY
+      type: 3
+    - name: _ClipUvLeft
+      type: 3
+    - name: _ClipUvRight
+      type: 3
+    - name: _ClipUvUp
+      type: 3
+    - name: _ClipUvDown
+      type: 3
+    - name: _TextureScrollXSpeed
+      type: 3
+    - name: _TextureScrollYSpeed
+      type: 3
+    - name: _ZoomUvAmount
+      type: 3
+    - name: _DistortTex
+      type: 4
+    - name: _DistortAmount
+      type: 3
+    - name: _DistortTexXSpeed
+      type: 3
+    - name: _DistortTexYSpeed
+      type: 3
+    - name: _TwistUvAmount
+      type: 3
+    - name: _TwistUvPosX
+      type: 3
+    - name: _TwistUvPosY
+      type: 3
+    - name: _TwistUvRadius
+      type: 3
+    - name: _RotateUvAmount
+      type: 3
+    - name: _FishEyeUvAmount
+      type: 3
+    - name: _PinchUvAmount
+      type: 3
+    - name: _ShakeUvSpeed
+      type: 3
+    - name: _ShakeUvX
+      type: 3
+    - name: _ShakeUvY
+      type: 3
+    - name: _ColorChangeTolerance
+      type: 3
+    - name: _ColorChangeTarget
+      type: 0
+    - name: _ColorChangeNewCol
+      type: 0
+    - name: _ColorChangeLuminosity
+      type: 3
+    - name: _RoundWaveStrength
+      type: 3
+    - name: _RoundWaveSpeed
+      type: 3
+    - name: _BillboardY
+      type: 2
+    - name: _ZWrite
+      type: 2
+    - name: _MySrcMode
+      type: 2
+    - name: _MyDstMode
+      type: 2
+    - name: _ShineColor
+      type: 0
+    - name: _ShineLocation
+      type: 3
+    - name: _ShineWidth
+      type: 3
+    - name: _ShineGlow
+      type: 3
+    - name: _ShineMask
+      type: 4
+    - name: _GlitchSize
+      type: 3
+    - name: _ZTestMode
+      type: 2
+    - name: _MinXUV
+      type: 3
+    - name: _MaxXUV
+      type: 3
+    - name: _MinYUV
+      type: 3
+    - name: _MaxYUV
+      type: 3
+    - name: _RandomSeed
+      type: 3
+  - name: Environment_Material
+    properties:
+    - name: _MainTex
+      type: 4
+    - name: _Color
+      type: 0
+    - name: PixelSnap
+      type: 2
+    - name: _RendererColor
+      type: 0
+    - name: _Flip
+      type: 1
+    - name: _AlphaTex
+      type: 4
+    - name: _EnableExternalAlpha
+      type: 2
+  - name: RainMaterial2D
+    properties:
+    - name: _TintColor
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _InvFade
+      type: 3
+  - name: RainMistMaterial2D
+    properties:
+    - name: _TintColor
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _InvFade
+      type: 3
+  - name: RainExplosionMaterial2D
+    properties:
+    - name: _TintColor
+      type: 0
+    - name: _MainTex
+      type: 4
+    - name: _InvFade
+      type: 3

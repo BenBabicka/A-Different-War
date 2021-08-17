@@ -1,0 +1,13 @@
+Controls
+w-forwards
+s-backwards
+a-left
+d-right
+z-zoom in
+x-zoom out
+[-switch character forward
+]-switch character backwards
+left click-move character, select character, selective box
+right click-pick up items
+scrollwheel up-zoom in
+scrollwheel down-zoom out

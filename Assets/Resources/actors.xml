@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ActorCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Actors>
+    <Actor Name="Gunnar Walker, Age 27">
+      <PosX>-8.364502</PosX>
+      <PosY>0.583333254</PosY>
+      <PosZ>-23.615303</PosZ>
+      <Health>0</Health>
+    </Actor>
+    <Actor Name="Diego Moran, Age 29">
+      <PosX>2.55140877</PosX>
+      <PosY>0.583333254</PosY>
+      <PosZ>-22.9917717</PosZ>
+      <Health>0</Health>
+    </Actor>
+    <Actor Name="Thaddeus Murphy, Age 23">
+      <PosX>-0.21005249</PosX>
+      <PosY>0.583333254</PosY>
+      <PosZ>-10.8072424</PosZ>
+      <Health>0</Health>
+    </Actor>
+    <Actor Name="Jamie Duran, Age 16">
+      <PosX>14.0272026</PosX>
+      <PosY>0.583333254</PosY>
+      <PosZ>-22.2454071</PosZ>
+      <Health>0</Health>
+    </Actor>
+    <Actor Name="Diego Moran, Age 29">
+      <PosX>2.55140877</PosX>
+      <PosY>0.583333254</PosY>
+      <PosZ>-22.9917717</PosZ>
+      <Health>0</Health>
+    </Actor>
+    <Actor Name="Thaddeus Murphy, Age 23">
+      <PosX>-0.21005249</PosX>
+      <PosY>0.583333254</PosY>
+      <PosZ>-10.8072424</PosZ>
+      <Health>0</Health>
+    </Actor>
+  </Actors>
+</ActorCollection>

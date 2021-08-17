@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fire
+  - Walker
+  - Players
+  - Enemy
+  - Bullet
+  - Pole
+  - JobBuilding
+  - Wall
+  - Building
+  - Job
+  - Unit
+  - Player
+  - AI
+  - Weapon
+  - Farm
+  - Ground
+  - Storage
+  - UI
+  - UsedFarm
+  - Tree
+  - Rock
+  - Music
+  - SFX
+  - Animal
+  - Dead
+  - CookingStation
+  - WallJobBuilding
+  - BuildManager
+  - Tent
+  - Food
+  - HuntingLodge
+  - Item
+  - Path
+  - Research
+  - Crafting
+  - CraftingBench
+  - Crafting UI
+  - WorldMap
+  - WorldMapLocation
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Wall
+  - Ground
+  - Player
+  - Enemy
+  - Allie
+  - Building
+  - Farm
+  - Tree
+  - Particals
+  - Dead
+  - Snapping
+  - Post Processing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1093696345
+    locked: 0
+  - name: Foreground
+    uniqueID: 1859086223
+    locked: 0
+  - name: Characters
+    uniqueID: 3940858523
+    locked: 0
+  - name: UI
+    uniqueID: 771169021
+    locked: 0
